@@ -1,0 +1,74 @@
+* {
+	padding: 10px;
+	margin: 10px;
+	font-family: 'PT Mono';
+}
+
+#board {
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #ffb;
+    border: 8px groove #993;
+}
+
+.supraContainer {
+	padding: 10px;
+	margin: auto;
+	width:550px;
+	height: 550px;
+}
+
+.pointerContainer{
+	width: 550px;
+	height: auto;
+	margin-top: 10px;
+	border-bottom: 5px;
+	font-family: 'PT Mono';
+	font-size: 30px;
+	place-content: center;
+	padding: 10px 0px;
+}
+
+#mouse {
+	width: 50px;
+	height: 50px;
+	border-radius: 29px;
+	position: absolute;
+	transition: all 0.2s;
+}
+
+.buttons {
+	height: auto;
+	width: 600px;
+	display: flex;
+}
+#back, #again {
+	width: auto;
+	height: 20px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: darkred;
+}
+
+.instructions {
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+ {
+	transition-property: font-size;
+	transition-duration: 0.2s;
+}
+}
+#back:link, #again:link {
+	color: darkred;
+}
+
+#back:visited, #again.visited {
+	color:darkred;
+}
+
+
+
+
